@@ -1,0 +1,11 @@
+{
+  "runtime": "nodejs18.x",
+  "version": "1.0",
+  "endpoints": {
+    "launch": {
+      "method": "POST",
+      "file": "launch.js",
+      "secrets": ["HUBDB_LAUNCH_TOKEN"]
+    }
+  }
+}
